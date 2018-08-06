@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="logo.ico">
+  <link rel="stylesheet" href="../FONTS/style.css">
+  <link rel="stylesheet" href="../CSS/view1.css">
+  <title>FoodMap</title>
+</head>
+<body>
+  <nav	class="navbar	navbar-expand-lg	navbar-light	bg-light">
+    <a	class="navbar-brand"	href="#">Menú <span class="icon-mug"></span></a>
+    <button	class="navbar-toggler"	type="button"	data-toggle="collapse" data-target="#navbarSupportedContent"	aria-controls="navbarSupportedContent"  aria-expanded="false"	aria-label="Toggle	navigation"><span	class="navbar-toggler-icon"></span></button>
+      <section	class="collapse	navbar-collapse"	id="navbarSupportedContent">
+        <ul	class="navbar-nav	mr-auto">
+          <li	class="nav-item">
+            <a	class="nav-link"	href="#" id="elComedor"> <span class="icon-spoon-knife"></span> El comedor<span	class="sr-only"></span></a>
+          </li>
+          <li	class="nav-item">
+            <a	class="nav-link"	href="#" id="cercaDeMi"> <span class="icon-logo"></span> Cerca de mi</a>
+          </li>
+          <li	class="nav-item">
+            <a	class="nav-link"	href="#" id="loMasPopular"> <span class="icon-heart"></span> Lo mas popular</a>
+          </li>             
+        </ul>
+        <form	class="form-inline	my-2	my-lg-0">
+          <input	class="form-control	mr-sm-2"	type="search"	placeholder = "Tu búsqueda" aria-label  ="Escribe aquí para buscar" id="buscador">
+          <button	class="btn	btn-outline-success	my-2	my-sm-0"	id="buscar" ><span class="icon-compass"></span></button>
+        </form>
+      </section>
+  </nav>
+    
+  <main class = "container col-sm-6">
+    <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#indicator1" data-slide-to="0" class="active"></li>
+          <li data-target="#indicator2" data-slide-to="1"></li>
+          <li data-target="#indicator3" data-slide-to="2"></li>
+        </ol>
+      <section class="carousel-inner">
+        <article class="carousel-item active">
+          <img class="d-block w-100" src="../IMAGES/image6.png" alt="First slide">
+        </article>
+        <article class="carousel-item">
+          <img class="d-block w-100" src="../IMAGES/image5.png" alt="Second slide">
+        </article>
+        <article class="carousel-item">
+          <img class="d-block w-100" src="../IMAGES/image4.png" alt="Third slide">
+        </article>
+      </section>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </section>
+        <h1>Esta es la 2da vista </h1>
+  </main>
+  <article	class="container">
+		<section	class="row	justify-content-md-center">
+				<section	class="col	col-md-5 col-lg-10 ">
+          <img class="card-img-top" src="../IMAGES/image2.png" alt="Card image cap">
+          <section	class="col-md-auto"> 
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum illo ipsum explicabo autem delectus, quidem nesciunt pariatur vitae, impedit ad tempore cupiditate rem voluptas molestiae! Quasi nostrum tenetur incidunt dignissimos!</p> 
+          </section>
+        </section>				
+    </section>
+    </article>    
+  <footer>
+      <span class="icon-svg"></span> Copyright(c) Brisia Castrejón. Copyright Holder All Rights Reserved. FoodMap. Laboratoria 2018.
+    </footer> 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <script src="../JS/view1.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+/* colores
+#1D1105 // café
+#CC0001 // rojo
+#00B18F // verde
+#8FD94E // verde aguacate o algo asi 
+#FFBE00 // amarillo
+#F3F3F3 // blanco 
+#F76201 // naranja fuerte
+#F74D01 // naranja claro
+*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background: #000;
+ }
+ .container {
+  width: 100%;
+  height: 100%;
+	text-align: center;
+	top: 5px;
+ }
+ .navbar {
+	background: #8FD94E !important;
+ }
+ .navbar-brand {
+	color: rgb(22, 157, 4) !important;
+ } 
+ .nav-link {
+	color: #000000 !important;
+ }
+ .icon-mug {
+	color: #000000;
+ }
+ .icon-logo {
+	color: #000000;
+ }
+.icon-heart {
+	color: rgb(208, 11, 11);
+ }
+.icon-spoon-knife {
+	color: #F76201;
+ }
+.btn {
+	color: #000000;
+ }
+section p {
+	margin: 20px;
+ }
+footer {
+	text-align: center;
+	color: #f3f3f3;
+ }
