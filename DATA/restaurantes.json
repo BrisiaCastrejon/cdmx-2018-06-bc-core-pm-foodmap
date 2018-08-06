@@ -1,5 +1,5 @@
 { "place":{
-    "cdmx": [
+    "cdmx": {
     {
     "name": "Pujol",
     "map": "https://map.viamichelin.com/map/carte?map=viamichelin&z=10&lat=19.43233&lon=-99.13428&width=550&height=382&format=png&version=latest&layer=background&debug_pattern=.*",
@@ -100,8 +100,8 @@
     "citykey": "Polanco",
     "reference": "https://www.timeoutmexico.mx/ciudad-de-mexico/restaurantes-cafes/top-10-restaurantes-en-el-df" 
   }  
-  ],
-  "edomex": [
+},
+  "edomex": {
     {
     "name": "Las Polas",
     "map": "http://gravedad.com.mx/blog/wp-content/uploads/2010/03/google_maps2.jpg",
@@ -202,6 +202,6 @@
     "citykey": "Naucalpan",
     "reference": "https://www.tripadvisor.com.mx/Restaurants-g1074309-Ciudad_Nezahualcoyotl_Central_Mexico_and_Gulf_Coast.html" 
   }  
-  ]
+}
 }
 }
