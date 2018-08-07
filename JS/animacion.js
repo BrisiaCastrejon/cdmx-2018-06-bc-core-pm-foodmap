@@ -6,7 +6,7 @@
   let frame = () => {
     if (loading == 100) {
       clearInterval(perrito);
-      window.open("../VIEWS/view1.html", "_self");      
+      window.open("VIEWS/view1.html", "_self");      
     }
     else {
       loading = loading+1;
