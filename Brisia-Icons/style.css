@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Brisia-Icons';
+  src:  url('fonts/Brisia-Icons.eot?c1wb3e');
+  src:  url('fonts/Brisia-Icons.eot?c1wb3e#iefix') format('embedded-opentype'),
+    url('fonts/Brisia-Icons.ttf?c1wb3e') format('truetype'),
+    url('fonts/Brisia-Icons.woff?c1wb3e') format('woff'),
+    url('fonts/Brisia-Icons.svg?c1wb3e#Brisia-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Brisia-Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo:before {
+  content: "\e901";
+}
+.icon-logo-clean:before {
+  content: "\e900";
+}
+.icon-facebook3:before {
+  content: "\e95f";
+  color: #3b5998;
+}
+.icon-twitter2:before {
+  content: "\ea6a";
+  color: #1da1f2;
+}
+.icon-whatsapp2:before {
+  content: "\ea83";
+  color: #25d366;
+}
+.icon-youtube3:before {
+  content: "\ea96";
+  color: #f00;
+}
+.icon-location:before {
+  content: "\eae2";
+}
+.icon-location2:before {
+  content: "\eae3";
+}
+.icon-compass:before {
+  content: "\eae4";
+}
+.icon-compass2:before {
+  content: "\eae5";
+}
+.icon-map:before {
+  content: "\eae6";
+}
+.icon-map2:before {
+  content: "\eae7";
+}
+.icon-spinner:before {
+  content: "\eb15";
+}
+.icon-spinner2:before {
+  content: "\eb16";
+}
+.icon-spinner3:before {
+  content: "\eb17";
+}
+.icon-spinner4:before {
+  content: "\eb18";
+}
+.icon-spinner5:before {
+  content: "\eb19";
+}
+.icon-spinner6:before {
+  content: "\eb1a";
+}
+.icon-spinner7:before {
+  content: "\eb1b";
+}
+.icon-gift:before {
+  content: "\eb3a";
+}
+.icon-glass:before {
+  content: "\eb3b";
+}
+.icon-glass2:before {
+  content: "\eb3c";
+}
+.icon-mug:before {
+  content: "\eb3d";
+}
+.icon-spoon-knife:before {
+  content: "\eb3e";
+}
+.icon-star-empty:before {
+  content: "\eb72";
+}
+.icon-heart:before {
+  content: "\eb75";
+}
+.icon-svg:before {
+  content: "\ec84";
+}
