@@ -12,7 +12,7 @@
 </head>
 <body>
   <nav	class="navbar	navbar-expand-lg	navbar-light	bg-light">
-    <a	class="navbar-brand"	href="#">Menú <span class="icon-mug"></span></a>
+    <a	class="navbar-brand"	href="#">Menú <span id="home" class="icon-mug"></span></a>
     <button	class="navbar-toggler"	type="button"	data-toggle="collapse" data-target="#navbarSupportedContent"	aria-controls="navbarSupportedContent"  aria-expanded="false"	aria-label="Toggle	navigation"><span	class="navbar-toggler-icon"></span></button>
       <section	class="collapse	navbar-collapse"	id="navbarSupportedContent">
         <ul	class="navbar-nav	mr-auto">
@@ -60,24 +60,51 @@
           <span class="sr-only">Next</span>
         </a>
       </section>
-        <h1>Esta es la 2da vista </h1>
+        <h1 id="saludo1" >Conocenos... </h1>
+        <p id="saludo2" >FOOD<span id="logo" class="icon-logo"></span>MAP es una aplicación web para móvil, que te permite localizar los mejores restaurantes cerda de ti. Consulta nuestra oferta y disfruta de la mejor comida, en compañía de los tuyos.</p>
   </main>
-  <article	class="container">
-		<section	class="row	justify-content-md-center">
-				<section	class="col	col-md-5 col-lg-10 ">
-          <img class="card-img-top" src="../IMAGES/image2.png" alt="Card image cap">
+  <article	class="container" id="container">
+		<!-- <section	class="row	justify-content-md-center">
+				<section	class="col	col-md-5 col-lg-10 " data-toggle="modal" data-target="#exampleModalCenter">
+          <img class="card-img-top" width="100%" src="../IMAGES/logo-clean.jpg" alt="Card image cap">
           <section	class="col-md-auto"> 
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum illo ipsum explicabo autem delectus, quidem nesciunt pariatur vitae, impedit ad tempore cupiditate rem voluptas molestiae! Quasi nostrum tenetur incidunt dignissimos!</p> 
+            <p>Nombre del restaurant</p> 
           </section>
         </section>				
-    </section>
-    </article>    
+    </section> -->
+    </article> 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="nombre"><!--Nombre del restaurante--></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <section id="pPhoto">
+              <!--mapa fijo -->
+              <img id="mapImage" src="" width="100%" alt="" />
+            </section>
+            <p id="adress"><!--Aquí irá la direccion--></p>
+            <p id="score"><!--Aquí irá la puntuacion--></p>
+          <!--Aquí debe ir la informacion del usuario-->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>        
+          </div>
+        </div>
+      </div> 
+    </div>   
   <footer>
       <span class="icon-svg"></span> Copyright(c) Brisia Castrejón. Copyright Holder All Rights Reserved. FoodMap. Laboratoria 2018.
     </footer> 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <script src="../JS/index.js"></script>
   <script src="../JS/view1.js"></script>
 </body>
 </html>
