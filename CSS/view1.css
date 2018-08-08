@@ -19,6 +19,7 @@ body {
   height: 100%;
 	text-align: center;
 	top: 5px;
+	color: #F76201;
  }
  .navbar {
 	background: #8FD94E !important;
@@ -35,11 +36,17 @@ body {
  .icon-logo {
 	color: #000000;
  }
+ #logo {
+	 color: #F76201;
+ }
 .icon-heart {
 	color: rgb(208, 11, 11);
  }
 .icon-spoon-knife {
 	color: #F76201;
+ }
+ .icon-star-empty {
+	 color: #ffff00;
  }
 .btn {
 	color: #000000;
